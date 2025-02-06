@@ -71,7 +71,7 @@ const TradeSection = () => {
             fontFamily: "'NeueMontreal-Book', sans-serif",
             color: '#949494',
             textAlign: 'center',
-            width: isMobile ? '90%' : '70%',
+            width: isMobile ? '90%' : '50%',
             zIndex: 3,
         },
         qrBox: {
@@ -117,8 +117,8 @@ const TradeSection = () => {
 
     const styles = getDynamicStyles();
     const subheaderText = isMobile ?
-        "Trade crypto, stocks, forex & more with omnichain liquidity and advanced analytics" :
-        "Trade 100k+ markets including crypto, stocks, forex & more with omnichain liquidity and advanced analytics in a seamless way";
+        "The simplest way to launch, interact and trade omnichain AI agents with over 1000+ integrations " :
+        "The simplest way to launch, interact and trade omnichain AI agents with over 1000+ integrations " 
 
     return (
         <div style={styles.container}>
@@ -131,7 +131,7 @@ const TradeSection = () => {
                 <img src={'https://res.cloudinary.com/xade-finance/image/upload/v1712746367/xu5yw8qekgyvoouklqsp.png'} style={styles.backgroundImage} alt="Background" />
             )}
             <div style={styles.overlay}></div>
-            <div style={styles.header}>THE ULTIMATE<br />TRADING<br />EXPERIENCE</div>
+            <div style={styles.header}>THE NO CODE<br />AGENT<br />LAUNCHER</div>
             <div style={styles.subheader}>{subheaderText}</div>
             <div style={styles.qrBox}>
                 <img src="https://res.cloudinary.com/dcrfpsiiq/image/upload/v1721109109/m2agbr4h7y9c74vwf0nv.png" alt="QR Code" style={styles.qrImage} />

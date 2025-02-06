@@ -16,11 +16,17 @@ const App = () => {
             <div class="left-half">
               <img
                 className="credimg"
-                src="/Media/deposit.png"
+                src="/iPhone 14 - 30.png"
+                style={{ maxWidth: "100%", height: "auto" }}
                 alt="image"
               ></img>
             </div>
-            <div class="right-half" style={{ display: "flex", alignItems: "center" }}>
+            <div class="right-half" style={{ 
+              display: "flex", 
+              alignItems: "flex-start",
+              justifyContent: "center",
+              height: "100%" 
+            }}>
               <div className="line2" style={{ textAlign: "left" }}>
                 <div
                   style={{
@@ -41,13 +47,13 @@ const App = () => {
                   }}
                 >
                   <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                    DEPOSIT FUNDS FROM OVER 100+ COUNTRIES SEAMLESSLY
+               SEAMLESS ONBOARDING
                   </h3>
                 </div>
                 <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
                   <span>
                     {" "}
-                    Get Started seamlessly with just your email address and deposit funds with over 100+ deposit methods from over 90+ counties from centralised exchanges, wallets, bank accounts, card, local payment methods, cross chain deposits and more{" "}
+                    Get started effortlessly with an omnichain wallet that you can generate with just your email address, seamless onramping and onboarding 
                   </span>
                 </div>
                 <br></br>
@@ -77,21 +83,30 @@ const App = () => {
                   }}
                 >
                   <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                  TRADE CRYPTO, STOCKS, FOREX & COMMODITIES
+                  NO CODE AGENT LAUNCHER
                   </h3>
                 </div>
                 <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
                   <span>
-                  Trade 100,000 markets including crypto, stocks, forex, commodities and other global markets in a non custodial manner without any restrictions powered by DeFi
+                 Xade no code agent launcher allows anybody to create DeFi and non DeFi agents with over 100+ integrations in just a few clicks with omnichain transacting capabilities, customisable llms, training data and real time data 
+
+These agents can be both sentient or interactive and can be launched with pricing ranging from $100 to $1000 depending on the capabilities of the agent
                   </span>
                 </div>
               </div>
             </div>
-            <div class="right-half">
+            <div class="right-half" style={{
+              display: "flex",
+              alignItems: "flex-start",
+              justifyContent: "center",
+              height: "100%"
+            }}>
               <img
                 className="credimg"
-                src={process.env.PUBLIC_URL + "/Media/markets.png"}
+                src="/iPhone 14 - 31.png"
+                style={{ maxWidth: "100%", height: "auto" }}
                 alt="payment image"
+             
               ></img>
             </div>
           </section>
@@ -99,11 +114,17 @@ const App = () => {
             <div class="left-half">
               <img
                 className="credimg"
-                src="/Media/trade.png"
+                src="/iPhone 14 - 32.png"
+                style={{ maxWidth: "100%", height: "auto" }}
                 alt="image"
               ></img>
             </div>
-            <div class="right-half">
+            <div class="right-half" style={{
+              display: "flex",
+              alignItems: "flex-start",
+              justifyContent: "center",
+              height: "100%"
+            }}>
               <div className="line2" style={{ textAlign: "left" }}>
                 <div
                   style={{
@@ -124,12 +145,18 @@ const App = () => {
                   }}
                 >
                   <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                    0MNICHAIN LIQUIDITY WITH 0 FEES & LATENCY
+                   AI ASSISTANT
                   </h3>
                 </div>
                 <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
                   <span>
-                  Get the best returns on your trade with liquidity aggregated and compared across 10+ EVM and non-EVM chains with 0 platform fees and lightning fast sub 10s trade execution
+                  A chatbot created specifically for retail traders to research and analyze crypto markets and their portfolios.
+
+Our custom AI model is optimized for maximum efficiency and best execution of trades.
+
+Access real-time and historical data across crypto, social media, portfolios, news, and macroeconomic indicators.
+
+Enable custom analysis techniques without writing any code.
                   </span>
                 </div>
                 <br></br>
@@ -203,13 +230,14 @@ const App = () => {
               }}
             >
               <h3 style={{ fontSize: "32px", lineHeight: "1.2" }}>
-                ADVANCED AI POWERED PORTFOLIO AND MARKET ANALYSIS
+                AGENTBOARD
               </h3>
             </div>
             <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
               <span>
                 {" "}
-                Unleash the pro trader inside with our advanced AI powered portfolio and market analysis tools, advanced charts, real time news, technical analysis and your own personal financial analysis bot: Degen AI
+                Xade Agents are filtered in 2 major categories: DeFi and Non-DeFi. You can choose to interact and filter any AI agents based on their returns or mindshare, usage and more.
+                Go up the agentboard to earn amazing rewards from Xade and it's partners and usage from other users as well
               </span>{" "}
             </div>
           </div>
@@ -217,7 +245,8 @@ const App = () => {
         <div class="right-half">
           <img
             className="credimg"
-            src="/Media/portfolio.png"
+            src="/iPhone 14 - 29.png"
+            style={{ maxWidth: "100%", height: "auto" }}
             alt="image"
           ></img>
         </div>
