@@ -12,12 +12,17 @@ const App = () => {
     <>
       <>
         <>
-          <section class="container" id="container4">
+          <section class="container" id="container4" style={{ marginTop: "8%" }}>
             <div class="left-half">
               <img
                 className="credimg"
                 src="/iPhone 14 - 30.png"
-                style={{ maxWidth: "100%", height: "auto" }}
+                style={{ 
+                  width: "500px", 
+                  height: "500px",
+                  objectFit: "cover",
+                  objectPosition: "top"
+                }}
                 alt="image"
               ></img>
             </div>
@@ -60,7 +65,7 @@ const App = () => {
               </div>
             </div>
           </section>
-          <section class="container" >
+          <section class="container" style={{ marginTop: "8%" }}>
             <div class="left-half" style={{}}>
               <div className="line2">
                 <div
@@ -104,18 +109,28 @@ These agents can be both sentient or interactive and can be launched with pricin
               <img
                 className="credimg"
                 src="/iPhone 14 - 31.png"
-                style={{ maxWidth: "100%", height: "auto" }}
+                style={{ 
+                  width: "500px", 
+                  height: "500px",
+                  objectFit: "cover",
+                  objectPosition: "top"
+                }}
                 alt="payment image"
              
               ></img>
             </div>
           </section>
-          <section class="container" id="container4">
+          <section class="container" id="container4" style={{ marginTop: "8%" }}>
             <div class="left-half">
               <img
                 className="credimg"
                 src="/iPhone 14 - 32.png"
-                style={{ maxWidth: "100%", height: "auto" }}
+                style={{ 
+                  width: "500px", 
+                  height: "500px",
+                  objectFit: "cover",
+                  objectPosition: "top"
+                }}
                 alt="image"
               ></img>
             </div>
@@ -208,7 +223,7 @@ Enable custom analysis techniques without writing any code.
           </div>
         </section> */}
       </>
-      <section class="container">
+      <section class="container" style={{ marginTop: "8%" }}>
         <div class="left-half" style={{}}>
           <div className="line2" style={{}}>
             <div
@@ -246,7 +261,12 @@ Enable custom analysis techniques without writing any code.
           <img
             className="credimg"
             src="/iPhone 14 - 29.png"
-            style={{ maxWidth: "100%", height: "auto" }}
+            style={{ 
+              width: "500px", 
+              height: "500px",
+              objectFit: "cover",
+              objectPosition: "top"
+            }}
             alt="image"
           ></img>
         </div>
