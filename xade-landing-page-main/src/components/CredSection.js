@@ -53,7 +53,7 @@ const App = () => {
                 <div style={{ fontSize: "1rem", fontFamily: "Regular" }}>
                   <span>
                     {" "}
-                    Get started effortlessly with an omnichain wallet that you can generate with just your email address, seamless onramping and onboarding 
+                    Get started effortlessly with an omnichain wallet that you can generate with just your email address, seamless onramping and onboarding. Experience a user-friendly interface designed for both crypto natives and newcomers, with built-in security features and easy access to all your digital assets across multiple chains.
                   </span>
                 </div>
                 <br></br>
