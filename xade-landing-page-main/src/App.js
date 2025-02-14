@@ -69,7 +69,7 @@ function App() {
       {/* <CardSection></CardSection> */}
 
       {/* <NFT /> */}
-      <BetterSection />
+      {/* <BetterSection /> */}
       <Stats />
 
       <Security />
