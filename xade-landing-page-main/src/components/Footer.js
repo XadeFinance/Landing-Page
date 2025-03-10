@@ -91,7 +91,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/xadefinance/"
+                    href="https://twitter.com/xade_xyz/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -100,7 +100,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://t.me/xadefi"
+                    href="https://t.me/xadeofficial"
                     target="_blank"
                     rel="noreferrer"
                   >
