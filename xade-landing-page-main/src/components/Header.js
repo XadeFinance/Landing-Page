@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <section
         className="smart-scroll"
-        style={{ background: "rgba(0,0,0,0" }}
+        style={{ background: "rgba(0,0,0" }}
       >
         <div className="container-fluid">
           <nav className="navbar navbar-expand-md navbar-dark">
