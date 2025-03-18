@@ -16,6 +16,9 @@ import Stats from "./components/Stats";
 import Security from "./components/Security";
 import TradeSection from "./components/TradeSection";
 import TradeLive from "./components/TradeLive";
+import SocialAgents from "./components/socialagents";
+import AgentBoard from "./components/agentboard";
+import TradingAgents from "./components/tradingagents";
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -36,6 +39,9 @@ function App() {
       <Header />
       {/* <TopSection /> */}
       <TradeSection />
+      <SocialAgents />
+      <TradingAgents/>
+
       {/* <div
         className="header3"
         id="apph3"
@@ -64,7 +70,7 @@ function App() {
           from a digital bank powered by our own in-house DeFi Protocols.
         </span>
       </div> */}
-      <CredSection />
+      <AgentBoard/>
       <TradeLive/>
       {/* <CardSection></CardSection> */}
 

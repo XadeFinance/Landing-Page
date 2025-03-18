@@ -1,0 +1,122 @@
+.social-agents {
+    background-color: black;
+    color: white;
+    padding: 1rem 1rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 6rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .label {
+    background-color: #1E1E1E;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .feature-card {
+    padding: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon-container {
+    background-color: #1E1E1E;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-description {
+    color: #999;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  .icon-container {
+    background-color: #000;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  /* Add this to remove right border from last column */
+  .feature-card:nth-child(2n) {
+    border-right: none;
+  }
+  
+  /* Add this to remove bottom border from last row */
+  .feature-card:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+  
+  /* Update media query to handle borders on mobile */
+  @media (max-width: 768px) {
+    .feature-card {
+      border-right: none;
+      border-bottom: 1px solid #333;
+    }
+    
+    .feature-card:last-child {
+      border-bottom: none;
+    }
+  }
+
+.eclipse-background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  z-index: 0;
+}

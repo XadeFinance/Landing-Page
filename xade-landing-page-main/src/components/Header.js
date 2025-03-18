@@ -55,16 +55,6 @@ export default function Header() {
                   </li>
                   <li className="nav-item">
                     <a
-                      href="https://app.komet.me/nfts/Xade_Explorers/346"
-                      className="nav-link page-scroll"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Explorers
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
                       className="nav-link page-scroll"
                       href="https://medium.com/@XadeFinance/what-is-xade-and-why-do-you-need-it-b483f46ba5a1"
                     >

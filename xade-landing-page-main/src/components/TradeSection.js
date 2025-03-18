@@ -131,7 +131,7 @@ const TradeSection = () => {
                 <img src={'https://res.cloudinary.com/xade-finance/image/upload/v1712746367/xu5yw8qekgyvoouklqsp.png'} style={styles.backgroundImage} alt="Background" />
             )}
             <div style={styles.overlay}></div>
-            <div style={styles.header}>THE NO CODE<br />AGENT<br />LAUNCHER</div>
+            <div style={styles.header}>THE ULTIMATE<br />HUB FOR<br />AI AGENTS</div>
             <div style={styles.subheader}>{subheaderText}</div>
             <div style={styles.qrBox}>
                 <img src="https://res.cloudinary.com/dcrfpsiiq/image/upload/v1721109109/m2agbr4h7y9c74vwf0nv.png" alt="QR Code" style={styles.qrImage} />
