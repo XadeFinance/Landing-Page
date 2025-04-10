@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "../styles/style.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,9 +11,9 @@ export default function Header() {
       >
         <div className="container-fluid">
           <nav className="navbar navbar-expand-md navbar-dark">
-            <a className="navbar-brand heading-black" href="#">
+            <Link className="navbar-brand heading-black" to="/">
               <div className="name">XADE</div>
-            </a>
+            </Link>
             <button
               className="navbar-toggler navbar-toggler-right border-0"
               type="button"
@@ -41,9 +42,9 @@ export default function Header() {
               <ul className="navbar-nav ml-auto desktop-arrangement-navbar">
                 <div>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#">
+                    <Link className="nav-link page-scroll" to="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a
@@ -60,6 +61,16 @@ export default function Header() {
                     >
                       Blog
                     </a>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link page-scroll" to="/support">
+                      Support
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link page-scroll" to="/privacy-policy">
+                      Privacy
+                    </Link>
                   </li>
                 </div>
                 <div>

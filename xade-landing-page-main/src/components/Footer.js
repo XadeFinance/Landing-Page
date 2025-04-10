@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/style.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -67,13 +68,10 @@ export default function Footer() {
                 </li>
 
                 <li>
-                  <a
-                    href="https://www.xade.finance/privacy-policy/                    "
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Privacy Policy
-                  </a>
+                  <Link to="/privacy-policy">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link to="/support">Support</Link>
                 </li>
               </ul>
             </div>
