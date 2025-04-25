@@ -12,7 +12,7 @@ const App = () => {
         const response = await fetch('https://api-evm.orderly.org/v1/public/volume/stats?broker_id=xade_finance');
         const data = await response.json();
         // Updated to handle up to 9 figures (hundreds of millions)
-        const totalVolume = (5000000 + (data.data?.perp_volume_ltd || 0)).toLocaleString('en-US', {
+        const totalVolume = (15000000 + (data.data?.perp_volume_ltd || 0)).toLocaleString('en-US', {
           style: 'currency',
           currency: 'USD',
           minimumFractionDigits: 0,
