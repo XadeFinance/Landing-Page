@@ -16,9 +16,9 @@ const KadenaDashboard = () => {
       // Simulate API call to fetch dashboard data
       setTimeout(() => {
         setDashboardData({
-          totalUsers: 560,
-          totalVolume: 22000,
-          totalTransactions: 2600,
+          totalUsers: 122,
+          totalVolume: 42000,
+          totalTransactions: 3300,
         });
         setLoading(false);
       }, 1000);
