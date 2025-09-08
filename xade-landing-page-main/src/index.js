@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 
 const PrivacyPolicy = React.lazy(() => import('./pages/PrivacyPolicy'));
 const Support = React.lazy(() => import('./pages/Support'));
+const KadenaDashboard = React.lazy(() => import('./components/KadenaDashboard'));
+const ManagementDashboard = React.lazy(() => import('./components/ManagementDashboard'));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,8 @@ root.render(
           <Route path="/" element={<App />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/kadena-dashboard" element={<KadenaDashboard />} />
+          <Route path="/management-dashboard" element={<ManagementDashboard />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
