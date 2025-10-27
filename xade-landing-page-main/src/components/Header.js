@@ -5,21 +5,6 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      {/* Announcement Bar */}
-      <div 
-        className="announcement-bar"
-        onClick={() => window.open('https://agentk.tech', '_blank')}
-      >
-        <div className="announcement-content">
-          <span className="announcement-text">
-            Win up to $1500 and $AGK for using AgentK by Xade
-          </span>
-          <span className="announcement-link">
-            Learn More →
-          </span>
-        </div>
-      </div>
-      
       <section
         className="smart-scroll"
         style={{ background: "rgba(0,0,0" }}
